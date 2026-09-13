@@ -1,0 +1,12 @@
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.md text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.rom binary
+*.png binary
+*.wav binary
+*.pptx binary
+*.pdf binary
+third-party/fonts/*.asm -text

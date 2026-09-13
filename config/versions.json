@@ -1,0 +1,21 @@
+{
+  "version": "0.5.0",
+  "emulator": {
+    "repository": "https://github.com/madscient/openMSX_Y8960",
+    "commit": "78469c4a0c2010f3252f1c55267f4036ccf8fd74",
+    "file": "openmsx-y8960-78469c4-windows-x64.zip",
+    "url": "https://github.com/renatus-xxxx/y8960-tech-demo/releases/download/v0.5.0/openmsx-y8960-78469c4-windows-x64.zip",
+    "sha256": "693da6fff71cb1a4ca9784ca230dfe66662940ff5f87e20d39fe380875b9e5f0",
+    "exeSha256": "f628cb1c5f91419b7f435687b5c83a8a6642655fe8060013a2e59418a4d1e817",
+    "sourceArchiveSha256": "ff8d18fd8bab51be274126691fe3c25b81c9048cb14f8b27dbb563387263dfb0",
+    "correspondingSource": {
+      "file": "openmsx-y8960-78469c4-source.zip",
+      "url": "https://github.com/renatus-xxxx/y8960-tech-demo/releases/download/v0.5.0/openmsx-y8960-78469c4-source.zip",
+      "sha256": "75c190753ee3c8a3478823d2f471e2a769d1b1011c908385a1ce53f4be558965"
+    }
+  },
+  "demo": {
+    "file": "demo/Y8960-DEMO.rom",
+    "sha256": "5418fa0513a1cfb5d65125168209b3e1eedf1b321b2ad58475bfb7892314fbb8"
+  }
+}

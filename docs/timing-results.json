@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-13",
+  "configuration": "pinned fork / C-BIOS MSX2+ / NTSC / Z80",
+  "current": {
+    "status": "PASS",
+    "events": 280,
+    "boundaries": 8,
+    "romSha256": "5418fa0513a1cfb5d65125168209b3e1eedf1b321b2ad58475bfb7892314fbb8",
+    "expectedStepMs": 250.322,
+    "maxIntervalErrorMs": 23.002,
+    "maxTimelineDriftMs": 23.003,
+    "maxTransitionErrorMs": 8.063,
+    "maxQuietToPlayMs": 8.507,
+    "maxTransitionPcmSilenceMs": 0,
+    "pcmOnsetErrorMs": 0.291,
+    "maxRelativeDropoutMs": 0,
+    "thresholdsMs": {
+      "interval": 33.376,
+      "drift": 33.376,
+      "transition": 16.688,
+      "quietToPlay": 10,
+      "pcmSilence": 20
+    },
+    "errors": []
+  },
+  "negativeControls": [
+    "missing note",
+    "100ms boundary delay",
+    "50ms digital silence",
+    "nonzero residual dropout",
+    "25ms record clock offset",
+    "incorrect ROM",
+    "incorrect emulator",
+    "incorrect score"
+  ]
+}

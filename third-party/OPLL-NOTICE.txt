@@ -1,0 +1,30 @@
+OPLL preset tone data
+=====================
+Copyright free OPLL(x) ROM patches
+(C) David Viens, Hubert Lamontagne
+Licensed under CC BY-SA.
+
+Source: https://github.com/plgDavid/misc/wiki/Copyright-free-OPLL%28x%29-ROM-patches
+Upstream license wording: "License: Attribution-ShareAlike CC BY-SA"
+The source does not specify a license version or a license-text URL.
+We retain that designation; we do not assign version 4.0 or another version.
+
+Used by openMSX_Y8960 commit 78469c4a0c2010f3252f1c55267f4036ccf8fd74,
+src/sound/YM2413NukeYKTBanked.cc, the OPLL-X, OPLL-P and VRC7 preset tables.
+The fork represents the parameters as C++ Patch fields rather than the
+original eight-byte rows. This distribution makes no further changes to
+the fork's emulator code or tone tables. This is not a claim of byte-for-byte
+identity with the original wiki data.
+
+The tone data retains its separate CC BY-SA notice. It is not relicensed
+under the demo's MIT license or automatically under the emulator's GPL.
+Attribution and license notices are retained in source and binary packages.
+No endorsement by the authors is implied.
+
+The original "copyright safe" description explains the authors' recreation
+of the sounds by ear, rather than an exact copy of the original ROM data.
+It is not a public-domain dedication or a waiver of CC BY-SA conditions.
+
+Recorded 2026-09-13. The unspecified license version remains an uncertainty;
+this notice does not claim GPL compatibility or resolve the legal treatment
+of embedding the tables in the executable. See the release review record.

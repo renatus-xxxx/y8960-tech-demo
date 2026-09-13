@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-13",
+  "os": "Windows 10 22H2 x64",
+  "emulatorCommit": "78469c4a0c2010f3252f1c55267f4036ccf8fd74",
+  "emulatorSha256": "f628cb1c5f91419b7f435687b5c83a8a6642655fe8060013a2e59418a4d1e817",
+  "romSha256": "5418fa0513a1cfb5d65125168209b3e1eedf1b321b2ad58475bfb7892314fbb8",
+  "startup": "PASS",
+  "controls": "PASS",
+  "loop": "PASS",
+  "visual": "PASS",
+  "audio": {
+    "section-1": {
+      "rate": 44100,
+      "channels": 2,
+      "rms": 643.62,
+      "peak": 1138,
+      "clippedFraction": 0.0,
+      "stereoDifferenceRms": 772.34
+    },
+    "section-2": {
+      "rate": 44100,
+      "channels": 2,
+      "rms": 764.24,
+      "peak": 1638,
+      "clippedFraction": 0.0,
+      "stereoDifferenceRms": 842.48
+    },
+    "section-3": {
+      "rate": 44100,
+      "channels": 2,
+      "rms": 852.49,
+      "peak": 2329,
+      "clippedFraction": 0.0,
+      "stereoDifferenceRms": 848.57
+    },
+    "section-4": {
+      "rate": 44100,
+      "channels": 2,
+      "rms": 950.11,
+      "peak": 4036,
+      "clippedFraction": 0.0,
+      "stereoDifferenceRms": 844.81
+    },
+    "muted": {
+      "rate": 44100,
+      "channels": 2,
+      "rms": 0.23,
+      "peak": 2,
+      "clippedFraction": 0.0,
+      "stereoDifferenceRms": 0.0
+    },
+    "stopped": {
+      "rate": 44100,
+      "channels": 2,
+      "rms": 0.0,
+      "peak": 0,
+      "clippedFraction": 0.0,
+      "stereoDifferenceRms": 0.0
+    }
+  },
+  "adpcm": {
+    "status": "PASS",
+    "ramMatches": true,
+    "bytes": 4096,
+    "rms": 44.04,
+    "peak": 989,
+    "romSha256": "5418fa0513a1cfb5d65125168209b3e1eedf1b321b2ad58475bfb7892314fbb8"
+  },
+  "scope": "All listed emulator checks rerun with this ROM; physical speaker playback and public downloads not tested.",
+  "spriteLayout": "PASS: 16 attributes, 17 patterns, colors, registers and bitmap separation",
+  "deployment": {
+    "date": "2026-09-13T19:23:45.1710187+09:00",
+    "os": "Microsoft Windows NT 10.0.19045.0",
+    "shell": "Windows PowerShell 5.1",
+    "scope": "Isolated local folder; published download and physical speaker output not tested",
+    "missingRuntime": "REJECTED",
+    "changedArchive": "REJECTED",
+    "emptyCacheConnectionFailure": "REJECTED",
+    "newSetupFromExternalDirectoryUnicodeSpacePath": "PASS",
+    "repeatSetup": "PASS",
+    "launchFromExternalDirectoryUnicodeSpacePath": "PASS",
+    "publicDownload": "NOT_TESTED",
+    "physicalSpeakerPlayback": "NOT_TESTED"
+  },
+  "reviewVerification": {
+    "date": "2026-09-13",
+    "suite": "PASS",
+    "timingNegativeControls": 9,
+    "emptySpriteBarsNegativeControl": "REJECTED",
+    "emulatorIdentity": "Actual executable SHA-256 recorded after runtime verification"
+  }
+}

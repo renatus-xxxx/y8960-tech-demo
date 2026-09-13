@@ -1,0 +1,16 @@
+/runtime/
+/cache/
+/logs/
+/build/
+/dist/
+/private/
+*.exe
+*.dll
+*.zip
+*.rom
+!demo/Y8960-DEMO.rom
+/.staging-*/
+__pycache__/
+*.part
+
+~$*
